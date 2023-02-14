@@ -1,7 +1,15 @@
 .menu-desplegable{
-    background-color: blue;
-    display: grid;
+    background-color: rgb(84, 84, 84);
+    /* display: grid; */
     position: absolute;
-    margin-left: 35vh;
-    height: 70vh;
+    /* margin-left: 35vh;*/
+    /* width: 25vh;  */
+    height: 92vh;
+    font-size: 1.2rem;
+    border-radius: 15px 0px 0px 15px;
+    color: white;
+}
+ul{
+    list-style: none;
+
 }
