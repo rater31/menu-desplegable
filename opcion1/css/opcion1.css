@@ -1,0 +1,7 @@
+.menu-desplegable{
+    background-color: blue;
+    display: grid;
+    position: absolute;
+    margin-left: 35vh;
+    height: 70vh;
+}
