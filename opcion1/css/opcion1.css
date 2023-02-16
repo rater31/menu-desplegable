@@ -1,28 +1,25 @@
 .menu-desplegable{
     background-color: rgb(84, 84, 84);
-    /* display: grid; */
-    position: absolute;
-    /* margin-left: 35vh;*/
-    /* width: 25vh;  */
+    position: fixed;
     height: 92vh;
     font-size: 1.2rem;
     border-radius: 15px 0px 0px 15px;
     color: white;
+    translate: 550px;
+
+    transform-origin: 0px 100%;
+    transition: all 600ms;
 }
 ul{
     list-style: none;
 
 }
-#menu{
-    position: fixed;
-    translate: 550px;
-
-}
 .animacion{
-    animation-name: menu-scroll;
+    /* animation-name: menu-scroll;
     animation-duration: 1.5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
     /* animation-play-state: paused; */
+    translate: 0px;
 }
 
 

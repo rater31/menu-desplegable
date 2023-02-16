@@ -16,6 +16,6 @@ function animacion(){
     barra2.classList.toggle('barra2');
     barra3.classList.toggle('barra3');
 
-    menuDesplegable.classList.add('animacion');
+    menuDesplegable.classList.toggle('animacion');
     console.log('Entro ');
 }
