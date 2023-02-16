@@ -1,0 +1,82 @@
+.contenedorMenuHamburguesa{
+    display: grid;
+    justify-content: end;
+    z-index: +1;
+}
+
+.barraHamburguesa{
+    height: 5px;
+    width: 30px;
+    background-color: black;
+    margin-top: 5px;
+    transform-origin: 0px 100%;
+    transition: all 600ms;
+}
+
+
+
+.barraHamburguesa:hover{
+    cursor: pointer;
+}
+.barra1{
+    /* animation-name: barra-1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards; */
+    transform: rotate(45deg);
+    translate: 0px 10px;
+    background-color: white;
+}
+
+.barra2{
+    /* animation-name: barra-2;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; */
+    
+}
+
+
+.barra3{
+    /* animation-name: barra-3;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards; */
+    transform: rotate(-45deg);
+    translate: 0px 10px;
+    background-color: white;
+}
+
+@keyframes barra-1{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(45deg);
+        translate: 0px 10px;
+        background-color: white;
+    }
+}
+@keyframes barra-2{
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 0%;
+        translate: -150px;
+        background-color: white;
+    }
+}
+@keyframes barra-3{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-45deg);
+        translate: 0px -10px;
+        background-color: white;
+
+        /* width: 40px; */
+
+
+    }
+}

@@ -13,3 +13,25 @@ ul{
     list-style: none;
 
 }
+#menu{
+    position: fixed;
+    translate: 550px;
+
+}
+.animacion{
+    animation-name: menu-scroll;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    /* animation-play-state: paused; */
+}
+
+
+@keyframes menu-scroll {
+    from{
+
+    }
+    to{
+        translate: 0px;
+        
+    }
+}
