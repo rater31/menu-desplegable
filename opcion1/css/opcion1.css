@@ -15,20 +15,5 @@ ul{
 
 }
 .animacion{
-    /* animation-name: menu-scroll;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards; */
-    /* animation-play-state: paused; */
     translate: 0px;
-}
-
-
-@keyframes menu-scroll {
-    from{
-
-    }
-    to{
-        translate: 0px;
-        
-    }
 }

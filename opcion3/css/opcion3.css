@@ -1,0 +1,29 @@
+.menu-desplegable{
+    position: absolute;
+    background-color: black;
+    color: white;
+    /* border-radius: 50% 0% 50% 50%; */
+    /* height: 50vh; */
+    display: grid;
+    justify-content: center;
+
+    translate: -3px 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+
+    transform-origin: 0px 100%;
+    transition: all 600ms;
+
+}
+ul{
+    list-style: none;
+    margin-top: 60px;
+
+}
+.animation{
+    translate: 0px;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50% 0% 50% 50% ;
+}

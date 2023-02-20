@@ -1,6 +1,19 @@
 .menu-desplegable{
     position: fixed;
-    background-color: #d9d9d9;
+    background-color: black;
     border-radius: 0px 0px 30px 30px;
     height: 60vh;
+    color:white;
+
+    translate:0px -550px ;    
+
+    transform-origin: 0px 100%;
+    transition: all 600ms;
+}
+ul{
+    list-style: none;
+}
+.animation{
+    translate: 0px 0px;
+
 }

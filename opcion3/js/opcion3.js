@@ -4,7 +4,6 @@ let barra2=document.querySelector("#barra2");
 let barra3=document.querySelector("#barra3");
 // menu desplegable
 let menuDesplegable=document.querySelector("#menu");
-let lista=document.querySelector('#lista');
 
 
 barra2.addEventListener("click", animacion);
@@ -18,5 +17,7 @@ function animacion(){
     barra3.classList.toggle('barra3');
 
     menuDesplegable.classList.toggle('animation');
+    lista.classList.toggle('d-none');
+
     console.log('Entro ');
 }
